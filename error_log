@@ -1,0 +1,773 @@
+[29-Nov-2023 01:59:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/core/class-astra-walker-page.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php:60
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#5 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php on line 60
+[29-Nov-2023 01:59:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/base/dynamic-css/html/class-astra-html-component-dynamic-css.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php:245
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(409): Astra_Builder_Customizer->__construct()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(163): require_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#11 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php on line 245
+[29-Nov-2023 01:59:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/core/class-astra-enqueue-scripts.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php:61
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#5 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php on line 61
+[29-Nov-2023 08:18:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/modules/posts-structures/class-astra-posts-structure-markup.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/modules/posts-structures/class-astra-post-structures.php:30
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/modules/posts-structures/class-astra-post-structures.php(44): Astra_Post_Structures->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(134): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#5 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#7 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/modules/posts-structures/class-astra-post-structures.php on line 30
+[29-Nov-2023 08:18:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/modules/posts-structures/class-astra-posts-structure-markup.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/modules/posts-structures/class-astra-post-structures.php:30
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/modules/posts-structures/class-astra-post-structures.php(44): Astra_Post_Structures->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(134): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#5 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#7 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/modules/posts-structures/class-astra-post-structures.php on line 30
+[29-Nov-2023 08:19:02 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Tasks/Task.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 08:19:02 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Integrations/Divi/Divi.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 08:19:02 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Integrations/LiteConnect/Integration.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 08:19:02 UTC] PHP Fatal error:  Uncaught Error: Class "WPForms\Tasks\Task" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Tasks/Actions/FormsLocatorScanTask.php:23
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php(571): include()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Forms/Locator.php(173): Composer\Autoload\ClassLoader->loadClass()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/WPForms.php(307): WPForms\Forms\Locator->init()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\WPForms->WPForms\{closure}()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/WPForms.php(266): do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\WPForms->objects()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#12 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#13 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#14 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#15 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#16 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Tasks/Actions/FormsLocatorScanTask.php on line 23
+[29-Nov-2023 08:19:02 UTC] PHP Fatal error:  Uncaught Error: Class "WPForms\Integrations\LiteConnect\Integration" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Lite/Integrations/LiteConnect/Integration.php:12
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php(571): include()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Lite/Integrations/LiteConnect/SendEntryTask.php(13): Composer\Autoload\ClassLoader->loadClass()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php(571): include('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Lite/Integrations/LiteConnect/LiteConnect.php(71): Composer\Autoload\ClassLoader->loadClass()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(73): WPForms\Lite\Integrations\LiteConnect\LiteConnect->load()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(58): WPForms\Integrations\Loader->load_integration()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(22): WPForms\Integrations\Loader->__construct()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\Integrations\Loader::get_instance()
+#10 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/WPForms.php(266): do_action()
+#13 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\WPForms->objects()
+#14 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#15 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#16 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#17 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#18 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#19 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#20 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#21 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Lite/Integrations/LiteConnect/Integration.php on line 12
+[29-Nov-2023 08:19:02 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../src/introductions/infrastructure/introductions-seen-repository.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 08:19:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/functions.wp-scripts.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-includes/script-loader.php:29
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(223): require()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#5 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-includes/script-loader.php on line 29
+[29-Nov-2023 08:19:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/functions.wp-scripts.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-includes/script-loader.php:29
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(223): require()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#5 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-includes/script-loader.php on line 29
+[29-Nov-2023 08:19:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/blocks/post-date.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-includes/blocks/require-dynamic-blocks.php:43
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-includes/blocks/index.php(13): require()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(339): require('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#5 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#6 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-includes/blocks/require-dynamic-blocks.php on line 43
+[29-Nov-2023 08:19:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-http-streams.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-settings.php:249
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#4 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-settings.php on line 249
+[29-Nov-2023 08:19:11 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../src/services/importing/conflicting-plugins-service.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 08:20:27 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Integrations/Stripe/Api/WebhooksManager.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 08:20:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/compatibility/edd/class-astra-edd.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php:143
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#5 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php on line 143
+[29-Nov-2023 08:20:27 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Integrations/Stripe/Api/WebhooksManager.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 08:20:27 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Integrations/Stripe/Api/WebhooksManager.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 08:20:27 UTC] PHP Fatal error:  Uncaught Error: Class "WPForms\Integrations\Stripe\Api\WebhooksManager" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Stripe/WebhooksHealthCheck.php:73
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Stripe/Stripe.php(57): WPForms\Integrations\Stripe\WebhooksHealthCheck->init()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(73): WPForms\Integrations\Stripe\Stripe->load()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(58): WPForms\Integrations\Loader->load_integration()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(22): WPForms\Integrations\Loader->__construct()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\Integrations\Loader::get_instance()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/WPForms.php(266): do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\WPForms->objects()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#12 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#13 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#14 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#15 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#16 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Stripe/WebhooksHealthCheck.php on line 73
+[29-Nov-2023 08:20:27 UTC] PHP Fatal error:  Uncaught Error: Class "WPForms\Integrations\Stripe\Api\WebhooksManager" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Stripe/WebhooksHealthCheck.php:73
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Stripe/Stripe.php(57): WPForms\Integrations\Stripe\WebhooksHealthCheck->init()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(73): WPForms\Integrations\Stripe\Stripe->load()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(58): WPForms\Integrations\Loader->load_integration()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(22): WPForms\Integrations\Loader->__construct()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\Integrations\Loader::get_instance()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/WPForms.php(266): do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\WPForms->objects()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#12 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#13 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#14 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#15 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#16 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Stripe/WebhooksHealthCheck.php on line 73
+[29-Nov-2023 08:20:27 UTC] PHP Fatal error:  Uncaught Error: Class "WPForms\Integrations\Stripe\Api\WebhooksManager" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Stripe/WebhooksHealthCheck.php:73
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Stripe/Stripe.php(57): WPForms\Integrations\Stripe\WebhooksHealthCheck->init()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(73): WPForms\Integrations\Stripe\Stripe->load()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(58): WPForms\Integrations\Loader->load_integration()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Loader.php(22): WPForms\Integrations\Loader->__construct()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\Integrations\Loader::get_instance()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/WPForms.php(266): do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\WPForms->objects()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#12 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#13 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#14 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#15 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#16 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/Integrations/Stripe/WebhooksHealthCheck.php on line 73
+[29-Nov-2023 11:47:51 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../inc/options/class-wpseo-option.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 11:47:51 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../src/conditionals/deactivating-yoast-seo-conditional.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 11:47:51 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../src/conditionals/deactivating-yoast-seo-conditional.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 11:47:51 UTC] PHP Fatal error:  Uncaught Error: Class "Yoast\WP\SEO\Conditionals\Deactivating_Yoast_Seo_Conditional" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/src/generated/container.php:1823
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getDeactivatingYoastSeoConditionalService()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/src/surfaces/classes-surface.php(38): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-router.php(20): Yoast\WP\SEO\Surfaces\Classes_Surface->get()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps.php(105): WPSEO_Sitemaps_Router->__construct()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/wp-seo-main.php(351): WPSEO_Sitemaps->__construct()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): wpseo_init()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#12 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#13 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1823
+[29-Nov-2023 11:47:51 UTC] PHP Fatal error:  Uncaught Error: Class "WPSEO_Option" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-wpseo.php:11
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php(571): include()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php(63): Composer\Autoload\ClassLoader->loadClass()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php(84): WPSEO_Options->__construct()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/wp-seo-main.php(333): WPSEO_Options::get_instance()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): wpseo_init()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#12 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#13 {main}
+
+Next TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "WPSEO_Option_Wpseo" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php:63
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php(84): WPSEO_Options->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/wp-seo-main.php(333): WPSEO_Options::get_instance()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): wpseo_init()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#10 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php on line 63
+[29-Nov-2023 11:47:51 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../inc/options/class-wpseo-option.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 11:47:51 UTC] PHP Fatal error:  Uncaught Error: Class "Yoast\WP\SEO\Conditionals\Deactivating_Yoast_Seo_Conditional" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/src/generated/container.php:1823
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getDeactivatingYoastSeoConditionalService()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/src/surfaces/classes-surface.php(38): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-router.php(20): Yoast\WP\SEO\Surfaces\Classes_Surface->get()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps.php(105): WPSEO_Sitemaps_Router->__construct()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/wp-seo-main.php(351): WPSEO_Sitemaps->__construct()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): wpseo_init()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#12 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#13 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1823
+[29-Nov-2023 11:47:51 UTC] PHP Fatal error:  Uncaught Error: Class "WPSEO_Option" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-option-wpseo.php:11
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php(571): include()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php(63): Composer\Autoload\ClassLoader->loadClass()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php(84): WPSEO_Options->__construct()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/wp-seo-main.php(333): WPSEO_Options::get_instance()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): wpseo_init()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#12 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#13 {main}
+
+Next TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "WPSEO_Option_Wpseo" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php:63
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php(84): WPSEO_Options->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/wp-seo-main.php(333): WPSEO_Options::get_instance()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): wpseo_init()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#10 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php on line 63
+[29-Nov-2023 11:47:58 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../src/integrations/support-integration.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 11:47:58 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../src/helpers/schema/article-helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[29-Nov-2023 11:48:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/core/common/modules/event-tracker/module.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/core/common/app.php(71): Elementor\Autoloader::autoload()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/plugin.php(767): Elementor\Core\Common\App->init_components()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/plugin.php(691): Elementor\Plugin->init_common()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): Elementor\Plugin->on_rest_api_init()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-includes/rest-api.php(593): do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-includes/rest-api.php(417): rest_get_server()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): rest_api_loaded()
+#10 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#11 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(565): WP_Hook->do_action()
+#12 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp.php(418): do_action_ref_array()
+#13 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp.php(813): WP->parse_request()
+#14 /home/akbarra1/scentedfowdie.my.id/wp-includes/functions.php(1336): WP->main()
+#15 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(16): wp()
+#16 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#17 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php on line 294
+[29-Nov-2023 11:48:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/cache-compat.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-includes/load.php:846
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(131): wp_start_object_cache()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#5 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-includes/load.php on line 846
+[29-Nov-2023 11:48:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Tracking/REST_Tracking_Consent_Controller.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php:43
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Tracking/Tracking.php(76): Google\Site_Kit\{closure}()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Plugin.php(197): Google\Site_Kit\Core\Tracking\Tracking->__construct()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): Google\Site_Kit\Plugin->Google\Site_Kit\{closure}()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(643): do_action()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#10 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php on line 43
+[29-Nov-2023 11:48:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Tracking/REST_Tracking_Consent_Controller.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php:43
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Tracking/Tracking.php(76): Google\Site_Kit\{closure}()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Plugin.php(197): Google\Site_Kit\Core\Tracking\Tracking->__construct()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): Google\Site_Kit\Plugin->Google\Site_Kit\{closure}()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(643): do_action()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#10 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php on line 43
+[29-Nov-2023 11:48:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Tracking/REST_Tracking_Consent_Controller.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php:43
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Tracking/Tracking.php(76): Google\Site_Kit\{closure}()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Plugin.php(197): Google\Site_Kit\Core\Tracking\Tracking->__construct()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): Google\Site_Kit\Plugin->Google\Site_Kit\{closure}()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(643): do_action()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#10 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php on line 43
+[01-Dec-2023 12:15:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/canonical.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-settings.php:230
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#4 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-settings.php on line 230
+[01-Dec-2023 12:15:49 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../src/introductions/domain/introduction-interface.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[01-Dec-2023 12:15:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/kses.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-settings.php:220
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#4 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-settings.php on line 220
+[01-Dec-2023 12:15:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor//includes/compatibility.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/plugin.php(878): Elementor\Autoloader::autoload()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/plugin.php(620): Elementor\Plugin->__construct()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/plugin.php(891): Elementor\Plugin::instance()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/elementor.php(53): require('/home/akbarra1/...')
+#5 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(473): include_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#10 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php on line 294
+[01-Dec-2023 12:15:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/kses.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-settings.php:220
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-cron.php(46): require_once('/home/akbarra1/...')
+#3 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-settings.php on line 220
+[01-Dec-2023 12:15:58 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../inc/options/class-wpseo-option-titles.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[01-Dec-2023 12:15:58 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../inc/class-wpseo-admin-bar-menu.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[01-Dec-2023 12:15:58 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class "WPSEO_Option_Titles" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php:63
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php(84): WPSEO_Options->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/wp-seo-main.php(333): WPSEO_Options::get_instance()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): wpseo_init()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#10 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/options/class-wpseo-options.php on line 63
+[01-Dec-2023 12:15:58 UTC] PHP Fatal error:  Uncaught Error: Class "WPSEO_Admin_Bar_Menu" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/wpseo-non-ajax-functions.php:20
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): wpseo_initialize_admin_bar()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/akbarra1/scentedfowd[01-Dec-2023 12:16:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/litespeed-cache/src/tool.cls.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/litespeed-cache/autoload.php:35
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/litespeed-cache/src/root.cls.php(206): litespeed_autoload()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/litespeed-cache/src/core.cls.php(271): LiteSpeed\Root::cls()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): LiteSpeed\Core->after_user_init()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(643): do_action()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#10 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/litespeed-cache/autoload.php on line 35
+[06-Dec-2023 06:59:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/includes/providers/class-constant-contact.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/includes/class-providers.php:57
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms_Providers->load()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/src/WPForms.php(266): do_action()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): WPForms\WPForms->objects()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#12 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/includes/class-providers.php on line 57
+[06-Dec-2023 06:59:05 UTC] PHP Fatal error:  During class fetch: Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Util/Method_Proxy_Trait.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php:43
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Authentication/Authentication.php(43): Google\Site_Kit\{closure}()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php(43): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Plugin.php(161): Google\Site_Kit\{closure}()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): Google\Site_Kit\Plugin->Google\Site_Kit\{closure}()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(643): do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#11 {main} in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Authentication/Authentication.php on line 43
+[06-Dec-2023 06:59:05 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../src/config/schema-types.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[06-Dec-2023 06:59:05 UTC] PHP Fatal error:  Uncaught Error: Class "Yoast\WP\SEO\Config\Schema_Types" not found in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/class-wpseo-meta.php:277
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/wp-seo-main.php(334): WPSEO_Meta::init()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): wpseo_init()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#9 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/inc/class-wpseo-meta.php on line 277
+[06-Dec-2023 06:59:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/lib/onboarding/class-onboarding.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites.php:2133
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites.php(123): Astra_Sites->includes()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites.php(108): Astra_Sites->__construct()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites.php(2774): Astra_Sites::get_instance()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/astra-sites.php(49): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): astra_sites_setup()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#12 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites.php on line 2133
+[06-Dec-2023 06:59:11 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Emails/FetchInfoBlocksTask.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[11-Dec-2023 05:17:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Dashboard_Sharing/Dashboard_Sharing.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php:43
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Plugin.php(212): Google\Site_Kit\{closure}()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): Google\Site_Kit\Plugin->Google\Site_Kit\{closure}()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(643): do_action()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#9 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php on line 43
+[11-Dec-2023 05:17:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/comment.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-settings.php:210
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#4 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-settings.php on line 210
+[11-Dec-2023 05:22:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component-loader.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component.php:32
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component.php(74): Astra_Header_Search_Component->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(269): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(250): Astra_Builder_Customizer->load_header_components()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(409): Astra_Builder_Customizer->__construct()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(163): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#12 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#13 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#14 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component.php on line 32
+[11-Dec-2023 05:22:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/addons/transparent-header/classes/class-astra-ext-transparent-header-markup.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/addons/transparent-header/class-astra-ext-transparent-header.php:48
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/addons/transparent-header/class-astra-ext-transparent-header.php(36): Astra_Ext_Transparent_Header->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/addons/transparent-header/class-astra-ext-transparent-header.php(62): Astra_Ext_Transparent_Header::get_instance()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(159): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#5 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#8 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/addons/transparent-header/class-astra-ext-transparent-header.php on line 48
+[11-Dec-2023 05:22:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component-loader.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component.php:32
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component.php(74): Astra_Header_Search_Component->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(269): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(250): Astra_Builder_Customizer->load_header_components()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(409): Astra_Builder_Customizer->__construct()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require[11-Dec-2023 05:22:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component-loader.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component.php:32
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component.php(74): Astra_Header_Search_Component->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(269): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(250): Astra_Builder_Customizer->load_header_components()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(409): Astra_Builder_Customizer->__construct()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(163): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#12 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#13 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#14 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/search/class-astra-header-search-component.php on line 32
+[11-Dec-2023 05:49:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/core/builder/class-astra-builder-options.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php:50
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(163): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#5 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#8 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php on line 50
+[31-Dec-2023 09:57:33 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wpforms-lite/vendor/composer/../../src/Frontend/Frontend.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[31-Dec-2023 09:57:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites-error-handler.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites.php:2123
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites.php(123): Astra_Sites->includes()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites.php(108): Astra_Sites->__construct()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites.php(2774): Astra_Sites::get_instance()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/astra-sites.php(49): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): astra_sites_setup()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(506): do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-cron.php(46): require_once('/home/akbarra1/...')
+#11 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/astra-sites/inc/classes/class-astra-sites.php on line 2123
+[31-Dec-2023 10:06:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/compat.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-settings.php:34
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#4 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-settings.php on line 34
+[31-Dec-2023 10:46:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/class-astra-global-palette.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php:68
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#5 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php on line 68
+[31-Dec-2023 10:46:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/core/base/app.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/aut[31-Dec-2023 10:46:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/core/base/app.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/preview.php(19): Elementor\Autoloader::autoload()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php(294): require('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/plugin.php(726): Elementor\Autoloader::autoload()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): Elementor\Plugin->init()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(643): do_action()
+#10 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#12 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#13 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#14 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php on line 294
+[01-Jan-2024 05:12:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/off-canvas/dynamic-css/dynamic.css.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/off-canvas/class-astra-off-canvas.php:36
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/off-canvas/class-astra-off-canvas.php(45): Astra_Off_Canvas->__construct()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(264): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(250): Astra_Builder_Customizer->load_header_components()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(409): Astra_Builder_Customizer->__construct()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/home/akbarra1/...')
+#6 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(163): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#12 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#13 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#14 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/header/off-canvas/class-astra-off-canvas.php on line 36
+[01-Jan-2024 05:12:48 UTC] PHP Warning:  include(): Failed opening '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/../../src/helpers/open-graph/image-helper.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/wordpress-seo/vendor/composer/ClassLoader.php on line 571
+[03-Jan-2024 04:50:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/footer/below-footer/class-astra-below-footer.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php:298
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(251): Astra_Builder_Customizer->load_footer_components()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(409): Astra_Builder_Customizer->__construct()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(163): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#12 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php on line 298
+[03-Jan-2024 04:50:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/footer/below-footer/class-astra-below-footer.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php:298
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(251): Astra_Builder_Customizer->load_footer_components()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(409): Astra_Builder_Customizer->__construct()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(163): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#12 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php on line 298
+[03-Jan-2024 04:50:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/type/footer/below-footer/class-astra-below-footer.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php:298
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(251): Astra_Builder_Customizer->load_footer_components()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(37): Astra_Builder_Customizer->load_base_components()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php(409): Astra_Builder_Customizer->__construct()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(66): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(33): Astra_Builder_Loader->__construct()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/builder/class-astra-builder-loader.php(163): Astra_Builder_Loader::get_instance()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/functions.php(163): require_once('/home/akbarra1/...')
+#7 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(611): include('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#12 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/themes/astra/inc/customizer/class-astra-builder-customizer.php on line 298
+[03-Jan-2024 04:50:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Modules/Module_With_Owner.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php:43
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Modules/Search_Console.php(56): Google\Site_Kit\{closure}()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php(43): require_once('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Authentication/Authentication.php(245): Google\Site_Kit\{closure}()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Plugin.php(161): Google\Site_Kit\Core\Authentication\Authentication->__construct()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): Google\Site_Kit\Plugin->Google\Site_Kit\{closure}()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(643): do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#12 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php on line 43
+[03-Jan-2024 05:31:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Modules/AdSense/Ad_Blocking_Recovery_Tag.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php:43
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Modules/AdSense.php(111): Google\Site_Kit\{closure}()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Modules/Modules.php(479): Google\Site_Kit\Modules\AdSense->__construct()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Core/Modules/Modules.php(210): Google\Site_Kit\Core\Modules\Modules->get_available_modules()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/Plugin.php(169): Google\Site_Kit\Core\Modules\Modules->register()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): Google\Site_Kit\Plugin->Google\Site_Kit\{closure}()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(643): do_action()
+#8 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#10 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbarra1/...')
+#11 /home/akbarra1/scentedfowdie.my.id/index.php(17): require('/home/akbarra1/...')
+#12 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/google-site-kit/includes/loader.php on line 43
+[03-Jan-2024 07:23:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/core/experiments/manager.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php:294
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/autoloader.php(330): Elementor\Autoloader::load_class()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/plugin.php(706): Elementor\Autoloader::autoload()
+#2 /home/akbarra1/scentedfowdie.my.id/wp-content/plugins/elementor/includes/plugin.php(647): Elementor\Plugin->init_components()
+#3 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(324): Elementor\Plugin->init()
+#4 /home/akbarra1/scentedfowdie.my.id/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/akbarra1/scentedfowdie.my.id/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(643): do_action()
+#7 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#8 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#9 /home/akbarra1/scentedfowdie.my.id/wp-blog-header.php(13): require_once('/home/akbar

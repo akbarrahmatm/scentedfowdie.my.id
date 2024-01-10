@@ -1,0 +1,14 @@
+[11-Dec-2023 05:49:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-load.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-admin/admin-ajax.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-admin/admin-ajax.php on line 22
+[31-Dec-2023 09:57:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/akbarra1/scentedfowdie.my.id/wp-includes/blocks/comments-title.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/akbarra1/scentedfowdie.my.id/wp-includes/blocks/require-dynamic-blocks.php:21
+Stack trace:
+#0 /home/akbarra1/scentedfowdie.my.id/wp-includes/blocks/index.php(13): require()
+#1 /home/akbarra1/scentedfowdie.my.id/wp-settings.php(339): require('/home/akbarra1/...')
+#2 /home/akbarra1/scentedfowdie.my.id/wp-config.php(97): require_once('/home/akbarra1/...')
+#3 /home/akbarra1/scentedfowdie.my.id/wp-load.php(50): require_once('/home/akbarra1/...')
+#4 /home/akbarra1/scentedfowdie.my.id/wp-admin/admin.php(34): require_once('/home/akbarra1/...')
+#5 /home/akbarra1/scentedfowdie.my.id/wp-admin/index.php(10): require_once('/home/akbarra1/...')
+#6 {main}
+  thrown in /home/akbarra1/scentedfowdie.my.id/wp-includes/blocks/require-dynamic-blocks.php on line 21
